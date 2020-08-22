@@ -42,5 +42,10 @@
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
+  },
+  "resolutions": {
+    "**/**/deepmerge": "^2.2.1",
+    "**/**/escape-string-regexp": "^4.0.0",
+    "**/**/scheduler": "^0.19.1"
   }
 }
