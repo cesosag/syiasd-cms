@@ -1,0 +1,28 @@
+{
+  "name": "strapi-plugin-bible-api",
+  "version": "0.0.1",
+  "description": "A plugin to add content from https://scripture.api.bible/",
+  "strapi": {
+    "name": "Bible API",
+    "icon": "bible",
+    "description": "A plugin to add content from https://scripture.api.bible/"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Carlos Sosa",
+    "email": "cesosag@gmail.com",
+    "url": "https://csjs.dev"
+  },
+  "maintainers": [
+    {
+      "name": "Carlos Sosa",
+      "email": "cesosag@gmail.com",
+      "url": "https://csjs.dev"
+    }
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

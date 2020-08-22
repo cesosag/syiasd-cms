@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "bible-api.index",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
