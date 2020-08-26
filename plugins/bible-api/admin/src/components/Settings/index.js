@@ -5,11 +5,7 @@ import { useIntl } from 'react-intl'
 import { Label, InputText } from '@buffetjs/core';
 import { Header } from '@buffetjs/custom';
 import { Panel } from '../Misc';
-
-const loadKey = async (setKey) => {
-  const res = await request(`/${pluginId}/settings`);
-  setKey(res.apiKey);
-}
+import loadKey from '../../utils/loadKey';
 
 const Settings = () => {
   const [key, setKey] = useState('');
