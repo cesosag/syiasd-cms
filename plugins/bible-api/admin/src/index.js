@@ -6,7 +6,7 @@ import Initializer from './containers/Initializer';
 import lifecycles from './lifecycles';
 import trads from './translations';
 
-import React from 'react';
+import { Settings } from './components';
 
 export default strapi => {
   const pluginDescription = pluginPkg.strapi.description || pluginPkg.description;
@@ -24,10 +24,10 @@ export default strapi => {
         title: 'API Key',
         to: `${strapi.settingsBaseURL}/${pluginId}/api-key`,
         name: 'API Key',
-        Component: () => <div>API Key</div>,
+        Component: Settings,
       }
     ]
-  }
+  };
 
   const plugin = {
     blockerComponent: null,

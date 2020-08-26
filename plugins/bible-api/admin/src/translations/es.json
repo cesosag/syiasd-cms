@@ -1,4 +1,8 @@
 {
   "plugin.name": "Bible API",
-  "settings.api_key": "Pon tu API key aquí"
+  "plugin.desc": "Un plugin para consumir la Bible API",
+  "settings.desc": "Configuraciones para la Bible API",
+  "settings.apiKey": "Pega tu API key aquí:",
+  "settings.save": "Guardar",
+  "settings.success": "Guardado con éxito"
 }
