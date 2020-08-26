@@ -1,12 +1,6 @@
 'use strict';
 
-const setStore = (strapi) => {
-  return strapi.store({
-    environment: strapi.config.environment,
-    type: 'plugin',
-    name: 'bible-api'
-  });
-}
+const { setStore } = require('../services/bible-api');
 
 /**
  * bible-api.js controller
@@ -43,7 +37,7 @@ module.exports = {
       ctx.throw(400, 'Please provide an API Key')
     }
     
-    const pluginStore = setStore(strapi);
+    const pluginStore = setStore();
     
     const result = await pluginStore.set({
       key: 'apiKey',
@@ -59,7 +53,7 @@ module.exports = {
       ctx.unauthorized('Only administrators can perform this action');
     }
     
-    const pluginStore = setStore(strapi);
+    const pluginStore = setStore();
     
     const apiKey = await pluginStore.get({ key: 'apiKey' });
     

@@ -7,5 +7,9 @@
  */
 
 module.exports = {
-
+  setStore: () => strapi.store({
+    environment: strapi.config.environment,
+    type: 'plugin',
+    name: 'bible-api'
+  })
 };
