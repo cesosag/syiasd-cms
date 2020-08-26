@@ -7,6 +7,22 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/settings",
+      "handler": "bible-api.getSettings",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/settings",
+      "handler": "bible-api.updateSettings",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
