@@ -24,6 +24,21 @@ module.exports = {
       message: 'ok'
     });
   },
+  
+  getSettings: async (ctx) => {
+    const { user } = ctx.state;
+    if (user.roles[0].id != 1) {
+      ctx.unauthorized('Only administrators can perform this action');
+    }
+    
+    const pluginStore = setStore();
+    
+    const apiKey = await pluginStore.get({ key: 'apiKey' });
+    
+    ctx.send({
+      apiKey: apiKey ? apiKey : ''
+    })
+  },
 
   updateSettings: async (ctx) => {
     const { user } = ctx.state;
@@ -47,7 +62,7 @@ module.exports = {
     ctx.send({ result });
   },
   
-  getSettings: async (ctx) => {
+  getConfig: async (ctx) => {
     const { user } = ctx.state;
     if (user.roles[0].id != 1) {
       ctx.unauthorized('Only administrators can perform this action');
@@ -55,10 +70,32 @@ module.exports = {
     
     const pluginStore = setStore();
     
-    const apiKey = await pluginStore.get({ key: 'apiKey' });
+    const config = await pluginStore.get({ key: 'config' });
     
     ctx.send({
-      apiKey: apiKey ? apiKey : ''
+      config: config ? config : {}
     })
+  },
+  
+  updateConfig: async (ctx) => {
+    const { user } = ctx.state;
+    const { config } = ctx.request.body;
+    
+    if (user.roles[0].id != 1) {
+      ctx.unauthorized('Only administrators can perform this action');
+    }
+    
+    if (!config) {
+      ctx.throw(400, 'Please provide an API Key')
+    }
+    
+    const pluginStore = setStore();
+    
+    const result = await pluginStore.set({
+      key: 'config',
+      value: config
+    });
+
+    ctx.send({ result });
   }
 };

@@ -10,3 +10,13 @@ export const Panel = styled.section`
   position: relative;
   width: 100%;
 `;
+
+export const Form = styled.form`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 1em;
+`;
+
+export const ControlWrapper = styled.div`
+  padding: 0.5em 0;
+`;

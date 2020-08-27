@@ -1,9 +1,9 @@
 import { request } from 'strapi-helper-plugin';
 import pluginId from '../pluginId';
 
-const loadKey = async (setKey) => {
-  const res = await request(`/${pluginId}/settings`);
-  setKey(res.apiKey);
+const loadKey = async () => {
+  const { apiKey } = await request(`/${pluginId}/settings`);
+  return apiKey;
 }
 
 export default loadKey;

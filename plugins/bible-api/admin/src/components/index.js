@@ -1,4 +1,4 @@
-import { Panel } from './Misc';
+import { Form, ControlWrapper, Panel } from './Misc';
 
 export { default as Settings } from './Settings';
-export { Panel };
+export { Form, ControlWrapper, Panel };
