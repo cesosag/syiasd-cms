@@ -12,7 +12,10 @@ const Settings = () => {
   const intl = useIntl();
   
   useEffect(() => {
-    loadKey(setKey);
+    (async () => {
+      const pk = await loadKey();
+      setKey(pk);
+    })();
   }, []);
   
   const updateKey = async () => {

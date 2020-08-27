@@ -4,5 +4,10 @@
   "settings.desc": "Configuraciones para la Bible API",
   "settings.apiKey": "Pega tu API key aquí:",
   "settings.save": "Guardar",
-  "settings.success": "Guardado con éxito"
+  "settings.success": "Guardado con éxito",
+  "config.desc": "Configuración para la Bible API",
+  "config.save": "Guardar configuración",
+  "config.success": "La configuración se ha guardado con éxito",
+  "config.lang": "Selecciona el idoma:",
+  "config.version": "Selecciona una versión:"
 }

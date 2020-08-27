@@ -23,6 +23,22 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/config",
+      "handler": "bible-api.getConfig",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/config",
+      "handler": "bible-api.updateConfig",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

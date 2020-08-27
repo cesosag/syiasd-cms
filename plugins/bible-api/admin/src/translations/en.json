@@ -4,5 +4,10 @@
   "settings.desc": "Settings for the Bible API",
   "settings.apiKey": "Paste your API key here:",
   "settings.save": "Save",
-  "settings.success": "The key has been saved successfully"
+  "settings.success": "The key has been saved successfully",
+  "config.desc": "Configuration for the Bible API",
+  "config.save": "Save configuration",
+  "config.success": "The current configuration has been saved successfully",
+  "config.lang": "Select language:",
+  "config.version": "Select version:"
 }
