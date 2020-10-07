@@ -14,17 +14,20 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.1.4",
-    "strapi-admin": "3.1.4",
-    "strapi-connector-mongoose": "3.1.4",
-    "strapi-utils": "3.1.4",
-    "strapi-plugin-content-type-builder": "3.1.4",
-    "strapi-plugin-content-manager": "3.1.4",
-    "strapi-plugin-users-permissions": "3.1.4",
-    "strapi-plugin-email": "3.1.4",
-    "strapi-plugin-upload": "3.1.4",
-    "knex": "<0.20.0",
-    "sqlite3": "latest"
+    "strapi": "3.2.1",
+    "strapi-admin": "3.2.1",
+    "strapi-connector-mongoose": "3.2.1",
+    "strapi-utils": "3.2.1",
+    "strapi-plugin-content-type-builder": "3.2.1",
+    "strapi-plugin-content-manager": "3.2.1",
+    "strapi-plugin-users-permissions": "3.2.1",
+    "strapi-plugin-email": "3.2.1",
+    "strapi-plugin-upload": "3.2.1"
+  },
+  "resolutions": {
+    "**/**/deepmerge": "^2.2.1",
+    "**/**/escape-string-regexp": "^4.0.0",
+    "**/**/scheduler": "^0.19.1"
   },
   "strapi": {
     "uuid": "fc783f4d-580c-42ae-b548-ce3280c91571"
