@@ -22,7 +22,8 @@
     "strapi-plugin-content-manager": "3.2.1",
     "strapi-plugin-users-permissions": "3.2.1",
     "strapi-plugin-email": "3.2.1",
-    "strapi-plugin-upload": "3.2.1"
+    "strapi-plugin-upload": "3.2.1",
+    "strapi-plugin-graphql": "3.2.1"
   },
   "resolutions": {
     "**/**/bl": "^4.0.3",
