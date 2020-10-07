@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_requests",
+  "info": {
+    "name": "Contacto",
+    "description": "Solicitudes de contacto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "apellido": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "mensaje": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
