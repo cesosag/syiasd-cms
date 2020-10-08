@@ -17,12 +17,14 @@
     "strapi": "3.2.1",
     "strapi-admin": "3.2.1",
     "strapi-connector-mongoose": "3.2.1",
-    "strapi-utils": "3.2.1",
-    "strapi-plugin-content-type-builder": "3.2.1",
     "strapi-plugin-content-manager": "3.2.1",
-    "strapi-plugin-users-permissions": "3.2.1",
+    "strapi-plugin-content-type-builder": "3.2.1",
     "strapi-plugin-email": "3.2.1",
-    "strapi-plugin-upload": "3.2.1"
+    "strapi-plugin-graphql": "3.2.1",
+    "strapi-plugin-upload": "3.2.1",
+    "strapi-plugin-users-permissions": "3.2.1",
+    "strapi-provider-email-sendgrid": "^3.2.1",
+    "strapi-utils": "3.2.1"
   },
   "resolutions": {
     "**/**/bl": "^4.0.3",
