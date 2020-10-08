@@ -23,6 +23,7 @@
     "strapi-plugin-graphql": "3.2.1",
     "strapi-plugin-upload": "3.2.1",
     "strapi-plugin-users-permissions": "3.2.1",
+    "strapi-provider-email-sendgrid": "^3.2.1",
     "strapi-utils": "3.2.1"
   },
   "resolutions": {
