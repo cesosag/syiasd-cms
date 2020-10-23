@@ -2,8 +2,9 @@
   "kind": "collectionType",
   "collectionName": "contact_requests",
   "info": {
-    "name": "Contacto",
-    "description": "Solicitudes de contacto"
+    "name": "Mensaje",
+    "description": "Solicitudes de contacto",
+    "icon": "envelope-open-text"
   },
   "options": {
     "increments": true,
