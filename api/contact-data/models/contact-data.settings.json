@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_data",
+  "info": {
+    "name": "Datos de contacto",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "localization.address",
+      "required": true
+    },
+    "open_hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "information.open-hours",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

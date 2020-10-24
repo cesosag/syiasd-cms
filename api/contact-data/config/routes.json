@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contact-data",
+      "handler": "contact-data.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contact-data",
+      "handler": "contact-data.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contact-data",
+      "handler": "contact-data.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

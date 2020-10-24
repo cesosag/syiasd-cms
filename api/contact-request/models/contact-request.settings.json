@@ -4,7 +4,7 @@
   "info": {
     "name": "Mensaje",
     "description": "Solicitudes de contacto",
-    "icon": "envelope-open-text"
+    "icon": "mail-bulk"
   },
   "options": {
     "increments": true,
@@ -12,11 +12,11 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "nombre": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "apellido": {
+    "lastName": {
       "type": "string",
       "required": true
     },
@@ -24,7 +24,7 @@
       "type": "email",
       "required": true
     },
-    "mensaje": {
+    "message": {
       "type": "text",
       "required": true
     }

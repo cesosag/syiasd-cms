@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/give",
+      "handler": "give.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/give",
+      "handler": "give.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/give",
+      "handler": "give.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

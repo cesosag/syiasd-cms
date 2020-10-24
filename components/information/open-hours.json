@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_information_open_hours",
+  "info": {
+    "name": "Open hours",
+    "icon": "door-open"
+  },
+  "options": {},
+  "attributes": {
+    "days": {
+      "type": "string",
+      "required": true
+    },
+    "hours": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

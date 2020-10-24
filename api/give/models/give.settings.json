@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "give_section",
+  "info": {
+    "name": "Donar",
+    "description": "Contenido de la sección \"Donar\"",
+    "icon": "hand-holding-usd"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
