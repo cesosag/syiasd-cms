@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms_of_service",
+  "info": {
+    "name": "Términos del Servicio",
+    "description": "",
+    "icon": "file-contract"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "termsOfService": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

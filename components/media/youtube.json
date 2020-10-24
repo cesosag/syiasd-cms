@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_media_youtubes",
+  "info": {
+    "name": "youtube",
+    "icon": "youtube"
+  },
+  "options": {},
+  "attributes": {
+    "mainPlaylist": {
+      "type": "string",
+      "private": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_urls",
+  "info": {
+    "name": "URLs",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "adventistGiving": {
+      "type": "string",
+      "required": true
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    }
+  }
+}

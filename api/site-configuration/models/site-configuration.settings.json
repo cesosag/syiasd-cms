@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configurations",
+  "info": {
+    "name": "Configuración del sitio",
+    "icon": "tools",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "URLs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "urls.ur-ls",
+      "required": true
+    },
+    "youtube": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.youtube",
+      "required": true
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "logos.logos",
+      "required": true
+    }
+  }
+}
