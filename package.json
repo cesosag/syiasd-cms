@@ -1,7 +1,7 @@
 {
   "name": "syiasd-cms",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "San Ysidro Spanish SDA church CMS",
   "repository": "git@github.com:cesosag/syiasd-cms.git",
   "author": "Carlos Sosa <cesosag@gmail.com>",
@@ -14,17 +14,18 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.2.1",
-    "strapi-admin": "3.2.1",
-    "strapi-connector-mongoose": "3.2.1",
-    "strapi-plugin-content-manager": "3.2.1",
-    "strapi-plugin-content-type-builder": "3.2.1",
-    "strapi-plugin-email": "3.2.1",
-    "strapi-plugin-graphql": "3.2.1",
-    "strapi-plugin-upload": "3.2.1",
-    "strapi-plugin-users-permissions": "3.2.1",
-    "strapi-provider-email-sendgrid": "^3.2.1",
-    "strapi-utils": "3.2.1"
+    "strapi": "3.2.5",
+    "strapi-admin": "3.2.5",
+    "strapi-connector-mongoose": "3.2.5",
+    "strapi-plugin-content-manager": "3.2.5",
+    "strapi-plugin-content-type-builder": "3.2.5",
+    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-graphql": "3.2.5",
+    "strapi-plugin-upload": "3.2.5",
+    "strapi-plugin-users-permissions": "3.2.5",
+    "strapi-provider-email-sendgrid": "^3.2.5",
+    "strapi-provider-upload-cloudinary": "^3.2.5",
+    "strapi-utils": "3.2.5"
   },
   "resolutions": {
     "**/**/bl": "^4.0.3",
