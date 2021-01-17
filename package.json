@@ -1,7 +1,7 @@
 {
   "name": "syiasd-cms",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "San Ysidro Spanish SDA church CMS",
   "repository": "git@github.com:cesosag/syiasd-cms.git",
   "author": "Carlos Sosa <cesosag@gmail.com>",
