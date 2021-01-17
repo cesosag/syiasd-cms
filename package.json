@@ -14,27 +14,26 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.2.5",
-    "strapi-admin": "3.2.5",
-    "strapi-connector-mongoose": "3.2.5",
-    "strapi-plugin-content-manager": "3.2.5",
-    "strapi-plugin-content-type-builder": "3.2.5",
-    "strapi-plugin-email": "3.2.5",
-    "strapi-plugin-graphql": "3.2.5",
-    "strapi-plugin-upload": "3.2.5",
-    "strapi-plugin-users-permissions": "3.2.5",
-    "strapi-provider-email-sendgrid": "^3.2.5",
-    "strapi-provider-upload-cloudinary": "^3.2.5",
-    "strapi-utils": "3.2.5"
+    "strapi": "3.4.3",
+    "strapi-admin": "3.4.3",
+    "strapi-connector-mongoose": "3.4.3",
+    "strapi-plugin-content-manager": "3.4.3",
+    "strapi-plugin-content-type-builder": "3.4.3",
+    "strapi-plugin-email": "3.4.3",
+    "strapi-plugin-graphql": "3.4.3",
+    "strapi-plugin-upload": "3.4.3",
+    "strapi-plugin-users-permissions": "3.4.3",
+    "strapi-provider-email-sendgrid": "^3.4.3",
+    "strapi-provider-upload-cloudinary": "^3.4.3",
+    "strapi-utils": "3.4.3"
   },
   "resolutions": {
-    "**/**/bl": "^4.0.3",
-    "**/**/deepmerge": "^2.2.1",
-    "**/**/escape-string-regexp": "^4.0.0",
+    "**/**/highlight.js": "^10.4.1",
+    "**/**/ini": "^1.3.6",
+    "**/**/mquery": "^3.2.3",
     "**/**/node-fetch": "^2.6.1",
     "**/**/node-forge": "^0.10.0",
-    "**/**/object-path": "^0.11.5",
-    "**/**/scheduler": "^0.19.1"
+    "**/**/urijs": "^1.19.4"
   },
   "strapi": {
     "uuid": "fc783f4d-580c-42ae-b548-ce3280c91571"

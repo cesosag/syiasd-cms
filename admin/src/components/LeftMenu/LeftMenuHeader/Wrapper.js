@@ -5,13 +5,11 @@ const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.main.colors.mediumBlue};
   padding-left: 2rem;
   height: ${props => props.theme.main.sizes.leftMenu.height};
-
   .leftMenuHeaderLink {
     &:hover {
       text-decoration: none;
     }
   }
-
   .projectName {
     display: block;
     width: 100%;
@@ -19,7 +17,6 @@ const Wrapper = styled.div`
     font-size: 2rem;
     letter-spacing: 0.2rem;
     color: $white;
-
     background-image: url(${({theme}) => theme.main.logo});
     background-repeat: no-repeat;
     background-position: left center;
