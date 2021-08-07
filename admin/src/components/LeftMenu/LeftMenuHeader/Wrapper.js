@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.main.colors.mediumBlue};
+  background-color: ${({ theme }) => theme.main.colors.leftMenu['background-header-link']};
   padding-left: 2rem;
   height: ${props => props.theme.main.sizes.leftMenu.height};
   .leftMenuHeaderLink {
@@ -17,7 +17,7 @@ const Wrapper = styled.div`
     font-size: 2rem;
     letter-spacing: 0.2rem;
     color: $white;
-    background-image: url(${({theme}) => theme.main.logo});
+    background-image: url(${({ theme }) => theme.main.logo});
     background-repeat: no-repeat;
     background-position: left center;
     background-size: auto 2.5rem;
