@@ -15,18 +15,20 @@ export default strapi => {
   
   const menuSection = {
     id: pluginId,
-    title: {
-      id: `${pluginId}.plugin.name`,
-      defaultMessage: 'Bible API',
-    },
+    title: 'Bible API',
     links: [
       {
-        title: 'API Key',
+        title: {
+          defaultMessage: 'API Key',
+        },
         to: `${strapi.settingsBaseURL}/${pluginId}/api-key`,
         name: 'API Key',
         Component: Settings,
-      }
-    ]
+        permissions: [
+          { action: `plugins::${pluginId}.getSettings`, subject: null },
+        ],
+      },
+    ],
   };
 
   const plugin = {
